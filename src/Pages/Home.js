@@ -3,6 +3,7 @@ import Intro from "../Components/Intro.js";
 import Aboutus from "../Components/Aboutus.js";
 import Productsrange from "../Components/Productsrange.js";
 import Trustedby from "../Components/Trustedby.js";
+import Ourqualities from "../Components/Ourqualities.js";
 
 const Home = () => {
   return (
@@ -11,6 +12,7 @@ const Home = () => {
       <Aboutus />
       <Productsrange />
       <Trustedby />
+      <Ourqualities />
     </div>
   );
 };

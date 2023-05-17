@@ -12,7 +12,7 @@ const Productsrange = () => {
         </div>
         <div className="h-1 bg-[#BE1E2D] w-full mt-4"></div>
       </div>
-      <div className="flex justify-between ml-8">
+      <div className="flex justify-between z-10 ml-8">
         <div className="flex justify-start gap-4">
           <div className="font-bold text-2xl">01</div>
           <div className="flex flex-col gap-6">
@@ -34,10 +34,10 @@ const Productsrange = () => {
           />
         </div>
       </div>
-      <div className="flex justify-between mr-8">
+      <div className="flex justify-between z-10 mr-8">
         <div className="flex justify-end text-end gap-4">
           <img
-            className="w-5/6 z-10 mt-10"
+            className="w-5/6 mt-10"
             src={require("../Assets/Oakwood Ocre (1).png")}
             alt=""
           />
@@ -57,7 +57,7 @@ const Productsrange = () => {
           <div className="font-bold text-2xl">02</div>
         </div>
       </div>
-      <div className="flex justify-between ml-8">
+      <div className="flex justify-between z-10 ml-8">
         <div className="flex justify-start gap-4">
           <div className="font-bold text-2xl">03</div>
           <div className="flex flex-col gap-6">
