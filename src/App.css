@@ -1,0 +1,5 @@
+.verticalwrap {
+  text-orientation: upright;
+  writing-mode: vertical-lr;
+  white-space: pre-wrap;
+}

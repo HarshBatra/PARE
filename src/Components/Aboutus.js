@@ -28,21 +28,21 @@ const Aboutus = () => {
         </div>
         <div className="flex items-end justify-between">
           <div className="flex mr-16 gap-8 font-light">
-            <div className="flex flex-col text-center text-sm w-20">
+            <div className="flex flex-col text-center text-sm w-20 items-center">
               <div className="text-4xl font-bold text-[#BE1E2D]">
                 <CountUp end={20} enableScrollSpy={true} />
                 <span>+</span>
               </div>
               HAPPY CUSTOMERS
             </div>
-            <div className="flex flex-col text-center text-sm w-20">
+            <div className="flex flex-col text-center text-sm w-20 items-center">
               <div className="text-4xl font-bold text-[#BE1E2D]">
                 <CountUp end={45} enableScrollSpy={true} />
                 <span>+</span>
               </div>
               CITIES SERVED
             </div>
-            <div className="flex flex-col text-center text-sm w-20">
+            <div className="flex flex-col text-center text-sm w-20 items-center">
               <div className="text-4xl font-bold text-[#BE1E2D]">
                 <CountUp end={200} enableScrollSpy={true} />
                 <span>+</span>
