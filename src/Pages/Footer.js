@@ -3,11 +3,11 @@ import React from "react";
 const Footer = () => {
   return (
     <div className="flex flex-col text-white bg-[#151515] py-10 tracking-wide font-light">
-      <div className="flex px-20 items-center justify-around my-10">
+      <div className="flex px-20 items-center justify-around mt-10 mb-16">
         <div className="text-6xl font-extralight w-[50rem]">
           LET'S WORK TOGETHER TO CREATE THE SPACE OF YOUR DREAMS.
         </div>
-        <div className="font-light py-16 px-8 border-2 border-white rounded-[100%] cursor-pointer">
+        <div className="font-light py-16 px-8 border-[0.01rem] border-white rounded-[100%] cursor-pointer">
           CONTACT US
         </div>
       </div>
