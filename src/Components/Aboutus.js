@@ -1,6 +1,5 @@
 import React from "react";
 import CountUp from "react-countup";
-import { IoChatbubblesOutline } from "react-icons/io5";
 
 const Aboutus = () => {
   return (
@@ -58,9 +57,6 @@ const Aboutus = () => {
             />
           </div>
         </div>
-      </div>
-      <div className="bg-[#BE1E2D] p-4 rounded-[50%] absolute -bottom-5 right-5 cursor-pointer">
-        <IoChatbubblesOutline className="text-white w-6 h-6" />
       </div>
     </div>
   );
