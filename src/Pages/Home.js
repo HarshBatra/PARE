@@ -6,6 +6,10 @@ import Trustedby from "../Components/Trustedby.js";
 import Ourqualities from "../Components/Ourqualities.js";
 import Chaticon from "../Components/Chaticon.js";
 import Pastwork from "../Components/Pastwork.js";
+import Projects from "../Components/Projects.js";
+import Testimonials from "../Components/Testimonials.js";
+import Nextproject from "../Components/Nextproject.js";
+import Pareindia from "../Components/Pareindia.js";
 
 const Home = () => {
   return (
@@ -17,6 +21,10 @@ const Home = () => {
       <Trustedby />
       <Pastwork />
       <Ourqualities />
+      <Projects />
+      <Testimonials />
+      <Nextproject />
+      <Pareindia />
     </div>
   );
 };
