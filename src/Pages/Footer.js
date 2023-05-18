@@ -13,19 +13,21 @@ const Footer = () => {
       </div>
       <div className="flex px-28 w-full">
         <div className="flex flex-col border-[0.01rem] border-opacity-50 border-white p-10 justify-between">
-          <img className="w-28" src={require("../Assets/logo.png")} alt="" />
+          <img
+            className="w-1/5 -mt-4"
+            src={require("../Assets/logo.png")}
+            alt=""
+          />
           <div className="font-light text-lg tracking-wider">
             Transform your living spaces with PARÉ's innovative, sustainable,
             and high-quality products. Let's work together to create a space
             that reflects your unique style and create unforgettable memories.
           </div>
         </div>
-        <div className="flex flex-col w-1/2">
+        <div className="flex flex-col w-2/3">
           <div className="flex flex-col border-[0.01rem] border-opacity-50 border-white p-10 h-1/2">
             <ul>
-              <li className="font-medium tracking-wider text-2xl mb-4">
-                LEGAL
-              </li>
+              <li className="font-bold tracking-wider text-2xl mb-4">LEGAL</li>
               <a href="/">
                 <li className="mb-2">COOKIE POLICY</li>
               </a>
@@ -36,9 +38,7 @@ const Footer = () => {
           </div>
           <div className="flex flex-col border-[0.01rem] border-opacity-50 border-white p-10 h-2/3 w-auto">
             <ul>
-              <li className="font-medium tracking-wider text-2xl mb-4">
-                SOCIAL
-              </li>
+              <li className="font-bold tracking-wider text-2xl mb-4">SOCIAL</li>
               <a href="/">
                 <li className="mb-2">INSTAGRAM</li>
               </a>
@@ -53,7 +53,7 @@ const Footer = () => {
         </div>
         <div className="flex flex-col border-[0.01rem] border-opacity-50 border-white p-10 w-2/3">
           <ul>
-            <li className="font-medium tracking-wider text-2xl mb-4">MENU</li>
+            <li className="font-bold tracking-wider text-2xl mb-4">MENU</li>
             <a href="/">
               <li className="mb-3">HOME</li>
             </a>
