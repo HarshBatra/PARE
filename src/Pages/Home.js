@@ -5,6 +5,7 @@ import Productsrange from "../Components/Productsrange.js";
 import Trustedby from "../Components/Trustedby.js";
 import Ourqualities from "../Components/Ourqualities.js";
 import Chaticon from "../Components/Chaticon.js";
+import Pastwork from "../Components/Pastwork.js";
 
 const Home = () => {
   return (
@@ -14,6 +15,7 @@ const Home = () => {
       <Aboutus />
       <Productsrange />
       <Trustedby />
+      <Pastwork />
       <Ourqualities />
     </div>
   );
