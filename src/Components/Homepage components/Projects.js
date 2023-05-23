@@ -3,9 +3,9 @@ import Slider from "react-slick";
 
 const Projects = () => {
   const projects = [
-    { imgURL: require("../Assets/projects/Artisan Oak - Lobby.png") },
-    { imgURL: require("../Assets/projects/Mahogany.png") },
-    { imgURL: require("../Assets/projects/Oakwood Ocre.png") },
+    { imgURL: require("../../Assets/projects/Artisan Oak - Lobby.png") },
+    { imgURL: require("../../Assets/projects/Mahogany.png") },
+    { imgURL: require("../../Assets/projects/Oakwood Ocre.png") },
   ];
 
   const settings = {

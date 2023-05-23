@@ -5,14 +5,14 @@ const Intro = () => {
     <div className="z-10 w-screen h-screen flex">
       <img
         className="absolute w-screen h-screen object-cover"
-        src={require("../Assets/royal nut 1.png")}
+        src={require("../../Assets/royal nut 1.png")}
         alt=""
       />
       <div className="absolute opacity-70 bg-gradient-to-r from-black to-black via-transparent w-screen h-screen top-0"></div>
       <div className="flex flex-col self-center ml-40 gap-4">
         <img
           className="z-50 w-2/3"
-          src={require("../Assets/innovwhitred 1.png")}
+          src={require("../../Assets/innovwhitred 1.png")}
           alt=""
         />
         <div className="flex font-sans font-bold text-6xl text-white drop-shadow-lg items-center align-middle tracking-wider h-auto">

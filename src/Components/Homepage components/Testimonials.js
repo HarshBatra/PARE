@@ -5,9 +5,9 @@ import "slick-carousel/slick/slick-theme.css";
 
 const Testimonials = () => {
   const projects = [
-    { imgURL: require("../Assets/projects/Artisan Oak - Lobby.png") },
-    { imgURL: require("../Assets/projects/Mahogany.png") },
-    { imgURL: require("../Assets/projects/Oakwood Ocre.png") },
+    { imgURL: require("../../Assets/projects/Artisan Oak - Lobby.png") },
+    { imgURL: require("../../Assets/projects/Mahogany.png") },
+    { imgURL: require("../../Assets/projects/Oakwood Ocre.png") },
   ];
 
   const settings = {

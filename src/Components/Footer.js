@@ -7,9 +7,11 @@ const Footer = () => {
         <div className="text-6xl font-extralight w-[50rem]">
           LET'S WORK TOGETHER TO CREATE THE SPACE OF YOUR DREAMS.
         </div>
-        <div className="font-light py-16 px-8 border-[0.01rem] border-white rounded-[100%] cursor-pointer">
-          CONTACT US
-        </div>
+        <a href="/contactus">
+          <div className="font-light py-16 px-8 border-[0.01rem] border-white rounded-[100%] cursor-pointer">
+            CONTACT US
+          </div>
+        </a>
       </div>
       <div className="flex px-28 w-full">
         <div className="flex flex-col border-[0.01rem] border-opacity-50 border-white p-10 justify-between">
@@ -57,7 +59,7 @@ const Footer = () => {
             <a href="/">
               <li className="mb-3">HOME</li>
             </a>
-            <a href="/">
+            <a href="/aboutus">
               <li className="mb-3">ABOUT</li>
             </a>
             <a href="/">

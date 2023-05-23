@@ -1,15 +1,15 @@
 import React from "react";
-import Intro from "../Components/Intro.js";
-import Aboutus from "../Components/Aboutus.js";
-import Productsrange from "../Components/Productsrange.js";
-import Trustedby from "../Components/Trustedby.js";
-import Ourqualities from "../Components/Ourqualities.js";
-import Chaticon from "../Components/Chaticon.js";
-import Pastwork from "../Components/Pastwork.js";
-import Projects from "../Components/Projects.js";
-import Testimonials from "../Components/Testimonials.js";
-import Nextproject from "../Components/Nextproject.js";
-import Pareindia from "../Components/Pareindia.js";
+import Intro from "../Components/Homepage components/Intro.js";
+import Aboutus from "../Components/Homepage components/Aboutus.js";
+import Productsrange from "../Components/Homepage components/Productsrange.js";
+import Trustedby from "../Components/Homepage components/Trustedby.js";
+import Ourqualities from "../Components/Homepage components/Ourqualities.js";
+import Chaticon from "../Components/Homepage components/Chaticon.js";
+import Pastwork from "../Components/Homepage components/Pastwork.js";
+import Projects from "../Components/Homepage components/Projects.js";
+import Testimonials from "../Components/Homepage components/Testimonials.js";
+import Nextproject from "../Components/Homepage components/Nextproject.js";
+import Pareindia from "../Components/Homepage components/Pareindia.js";
 
 const Home = () => {
   return (

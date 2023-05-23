@@ -9,7 +9,7 @@ const Aboutus = () => {
         <div className="border-2 border-[#BE1E2D]">
           <img
             className="h-[30rem] -ml-4 -mb-4 mt-4"
-            src={require("../Assets/Armani Grey 1.png")}
+            src={require("../../Assets/Armani Grey 1.png")}
             alt=""
           />
         </div>
@@ -52,7 +52,7 @@ const Aboutus = () => {
           <div className="border-2 border-[#BE1E2D]">
             <img
               className="h-full -ml-4 -mb-4 mt-4"
-              src={require("../Assets/Staturio.png")}
+              src={require("../../Assets/Staturio.png")}
               alt=""
             />
           </div>

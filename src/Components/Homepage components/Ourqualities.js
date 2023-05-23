@@ -13,7 +13,7 @@ const Ourqualities = () => {
         <div className="border-2 border-white p-6 mb-2 rounded-[50%] items-center align-middle justify-center self-center">
           <img
             className="self-center"
-            src={require("../Assets/Frame 41.png")}
+            src={require("../../Assets/Frame 41.png")}
             alt=""
           />
         </div>
@@ -28,7 +28,7 @@ const Ourqualities = () => {
         <div className="border-2 border-white p-6 mb-2 rounded-[50%] items-center align-middle justify-center self-center">
           <img
             className="self-center"
-            src={require("../Assets/loader.png")}
+            src={require("../../Assets/loader.png")}
             alt=""
           />
         </div>
@@ -43,7 +43,7 @@ const Ourqualities = () => {
         <div className="border-2 border-white p-6 mb-2 rounded-[50%] items-center align-middle justify-center self-center">
           <img
             className="self-center"
-            src={require("../Assets/pen-tool.png")}
+            src={require("../../Assets/pen-tool.png")}
             alt=""
           />
         </div>
@@ -58,7 +58,7 @@ const Ourqualities = () => {
         <div className="border-2 border-white p-6 mb-2 rounded-[50%] items-center align-middle justify-center self-center">
           <img
             className="self-center"
-            src={require("../Assets/Vector.png")}
+            src={require("../../Assets/Vector.png")}
             alt=""
           />
         </div>

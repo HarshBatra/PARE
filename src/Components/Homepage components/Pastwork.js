@@ -3,14 +3,14 @@ import Marquee from "react-fast-marquee";
 
 const Pastwork = () => {
   const works = [
-    { imgURL: require("../Assets/marquee/Bathroom vertica gold.png") },
-    { imgURL: require("../Assets/marquee/Copper.png") },
-    { imgURL: require("../Assets/marquee/Imperial Nut.png") },
-    { imgURL: require("../Assets/marquee/Mahogany.png") },
-    { imgURL: require("../Assets/marquee/Oak Wood Ocre.png") },
-    { imgURL: require("../Assets/marquee/Oakwood Ocre (1).png") },
-    { imgURL: require("../Assets/marquee/Oakwood Ocre.png") },
-    { imgURL: require("../Assets/marquee/Statuario 002.png") },
+    { imgURL: require("../../Assets/marquee/Bathroom vertica gold.png") },
+    { imgURL: require("../../Assets/marquee/Copper.png") },
+    { imgURL: require("../../Assets/marquee/Imperial Nut.png") },
+    { imgURL: require("../../Assets/marquee/Mahogany.png") },
+    { imgURL: require("../../Assets/marquee/Oak Wood Ocre.png") },
+    { imgURL: require("../../Assets/marquee/Oakwood Ocre (1).png") },
+    { imgURL: require("../../Assets/marquee/Oakwood Ocre.png") },
+    { imgURL: require("../../Assets/marquee/Statuario 002.png") },
   ];
 
   return (

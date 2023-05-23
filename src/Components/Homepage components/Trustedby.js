@@ -9,10 +9,10 @@ const Trustedby = () => {
           <div className="h-1 bg-[#151515] p-1 rounded absolute bottom-0 -right-1"></div>
         </div>
       </div>
-      <img className="" src={require("../Assets/Godrej.png")} alt="" />
-      <img className="" src={require("../Assets/dlf.png")} alt="" />
-      <img className="" src={require("../Assets/Brigade.png")} alt="" />
-      <img className="" src={require("../Assets/indiabulls.png")} alt="" />
+      <img className="" src={require("../../Assets/Godrej.png")} alt="" />
+      <img className="" src={require("../../Assets/dlf.png")} alt="" />
+      <img className="" src={require("../../Assets/Brigade.png")} alt="" />
+      <img className="" src={require("../../Assets/indiabulls.png")} alt="" />
     </div>
   );
 };

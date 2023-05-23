@@ -1,19 +1,19 @@
 import React from "react";
 
-const Nextproject = () => {
+const Letswork = () => {
   return (
-    <div className="flex bg-[#151515] p-20 px-60 gap-16 justify-around text-white align-middle items-center">
-      <div className="flex flex-col w-2/3 gap-4">
-        <div className="text-6xl leading-[5rem] font-thin">
-          IT'S TIME TO DISCUSS YOUR{" "}
-          <span className="font-extrabold text-[#BE1E2D] tracking-wide">
-            NEXT PROJECT
-          </span>
+    <div className="flex justify-between items-center py-20 pl-20">
+      <div className="flex flex-col gap-4 w-2/5">
+        <div className="text-5xl text-[#BE1E2D] font-black tracking-wide">
+          LET'S WORK –––––––
         </div>
-        <div className="text-sm opacity-90 font-thin tracking-wide">
-          Let's get the ball rolling on your next project! Reach out to us at
-          PARÉ and let's discuss how we can bring your vision to life. We're
-          excited to hear from you!
+        <div className="text-5xl">on your project</div>
+        <div className="mt-4">
+          Let's work together to turn your design dreams into reality.
+        </div>
+        <div className="w-3/4">
+          Fill out our form and our team will be in touch with you shortly to
+          get started on your project
         </div>
         <div className="mb-4 gap-4 flex flex-col">
           <input
@@ -25,12 +25,16 @@ const Nextproject = () => {
             className="bg-[#151515] font-thin opacity-80 p-4 border-b-2 border-white border-opacity-50 w-11/12"
           />
           <input
-            placeholder="EMAIL:"
+            placeholder="MAIL ID:"
             className="bg-[#151515] font-thin opacity-80 p-4 border-b-2 border-white border-opacity-50 w-11/12"
           />
           <input
-            placeholder="MESSAGE:"
+            placeholder="REQUIREMENT TYPE:"
             className="bg-[#151515] font-thin opacity-80 p-4 border-b-2 border-white border-opacity-50 w-11/12"
+          />
+          <input
+            placeholder="YOUR MESSAGE:"
+            className="bg-[#151515] font-thin opacity-80 p-4 py-8 border-b-2 border-white border-opacity-50 w-11/12"
           />
         </div>
         <div className="font-thin opacity-80 text-lg mb-4 tracking-wide">
@@ -40,11 +44,13 @@ const Nextproject = () => {
           SEND REQUEST
         </div>
       </div>
-      <div>
-        <img className="" src={require("../Assets/Royal Nut (2).png")} alt="" />
-      </div>
+      <img
+        className="w-1/2"
+        src={require("../../Assets/Screenshot 2023-04-11 225739.png")}
+        alt=""
+      />
     </div>
   );
 };
 
-export default Nextproject;
+export default Letswork;

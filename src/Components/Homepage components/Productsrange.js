@@ -29,7 +29,7 @@ const Productsrange = () => {
           </div>
           <img
             className="w-5/6 mt-10"
-            src={require("../Assets/Oakwood Ocre.png")}
+            src={require("../../Assets/Oakwood Ocre.png")}
             alt=""
           />
         </div>
@@ -38,7 +38,7 @@ const Productsrange = () => {
         <div className="flex justify-end text-end gap-4">
           <img
             className="w-5/6 mt-10"
-            src={require("../Assets/Oakwood Ocre (1).png")}
+            src={require("../../Assets/Oakwood Ocre (1).png")}
             alt=""
           />
           <div className="flex flex-col gap-6">
@@ -75,7 +75,7 @@ const Productsrange = () => {
           </div>
           <img
             className="w-5/6 mt-10"
-            src={require("../Assets/Larch 1.png")}
+            src={require("../../Assets/Larch 1.png")}
             alt=""
           />
         </div>
