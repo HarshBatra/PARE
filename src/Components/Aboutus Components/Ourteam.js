@@ -75,7 +75,7 @@ const Ourteam = () => {
   return (
     <div className="flex flex-col gap-2 px-40">
       <div className="font-light text-2xl">MEET</div>
-      <div className="text-5xl font-black">OUR TEAM</div>
+      <div className="text-5xl font-semibold">OUR TEAM</div>
       <Slider {...settings} className="my-20">
         {teams.map((team) => (
           <div className="flex flex-col justify-center items-center align-middle self-center text-center">
@@ -84,7 +84,7 @@ const Ourteam = () => {
               src={team.imgURL}
               alt=""
             />
-            <div className="font-black text-2xl mt-2">{team.name}</div>
+            <div className="font-semibold text-2xl mt-2">{team.name}</div>
             <div className="font-light text-sm">{team.profile}</div>
           </div>
         ))}

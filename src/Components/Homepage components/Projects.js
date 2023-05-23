@@ -18,7 +18,7 @@ const Projects = () => {
   };
 
   return (
-    <div className="flex bg-[#151515] flex-col text-4xl font-black p-20 gap-4 text-white">
+    <div className="flex bg-[#151515] flex-col text-4xl font-semibold p-20 gap-4 text-white">
       PROJECTS
       <div className="text-lg w-1/3 font-light">
         Browse through and see how we have transformed spaces and exceeded our

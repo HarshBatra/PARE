@@ -6,10 +6,10 @@ const Testimonials = () => {
       <div className="flex text-6xl justify-around items-end">
         <div className="w-1/2 leading-[5rem]">
           WHAT OUR{" "}
-          <span className="text-[#BE1E2D] font-black w-1/2">CLIENTS</span> HAVE
-          TO SAY ABOUT US
+          <span className="text-[#BE1E2D] font-semibold w-1/2">CLIENTS</span>{" "}
+          HAVE TO SAY ABOUT US
         </div>
-        <div className="text-xl font-thin w-1/4 text-right">
+        <div className="text-xl font-normal w-1/4 text-right">
           Browse through our client testimonials to hear first-hand accounts of
           our quality products and exceptional customer service.
         </div>

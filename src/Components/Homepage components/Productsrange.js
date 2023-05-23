@@ -3,7 +3,7 @@ import React from "react";
 const Productsrange = () => {
   return (
     <div className="flex flex-col lg:my-32 my-20 lg:gap-20 gap-10 text-[#151515]">
-      <div className="font-black text-[25rem] left-0 -ml-52 opacity-5 verticalwrap z-0 absolute lg:flex hidden">
+      <div className="font-semibold text-[25rem] left-0 -ml-52 opacity-5 verticalwrap z-0 absolute lg:flex hidden">
         PARE
       </div>
       <div className="flex flex-col w-fit justify-center self-center">
@@ -14,12 +14,12 @@ const Productsrange = () => {
       </div>
       <div className="flex justify-between z-10 lg:ml-8 ml-2">
         <div className="flex justify-start gap-4">
-          <div className="font-bold lg:text-2xl text-base">01</div>
+          <div className="font-semibold lg:text-2xl text-base">01</div>
           <div className="flex flex-col gap-6">
             <div className="lg:text-6xl text-4xl font-bold tracking-wide lg:-mt-2">
               INNOV+
             </div>
-            <div className="lg:w-3/4 w-full tracking-wide text-xs lg:text-base">
+            <div className="lg:w-3/4 w-full tracking-wide text-xs lg:text-base 2xl:text-xl font-medium">
               Elevate your space with PARÉ Soffit Systems. Embrace the allure of
               wood, minus the drawbacks. Transform effortlessly with our
               versatile Soffit Louvers or sleek Vertica Soffit Panels. Discover
@@ -47,7 +47,7 @@ const Productsrange = () => {
             <div className="lg:text-6xl text-4xl font-bold tracking-wide lg:-mt-2">
               EASY+
             </div>
-            <div className="lg:w-3/4 tracking-wide self-end w-full text-xs lg:text-base">
+            <div className="lg:w-3/4 tracking-wide self-end w-full text-xs lg:text-base 2xl:text-xl font-medium">
               PARÉ's Easy+ Locking System revolutionizes wall and ceiling panel
               integration with a seamless, hassle-free installation. Embrace the
               Pyramid design for added texture or choose Linea panels for clean
@@ -58,17 +58,17 @@ const Productsrange = () => {
               VIEW PRODUCTS
             </div>
           </div>{" "}
-          <div className="font-bold lg:text-2xl text-base">02</div>
+          <div className="font-semibold lg:text-2xl text-base">02</div>
         </div>
       </div>
       <div className="flex justify-between z-10 lg:ml-8 ml-2">
         <div className="flex justify-start gap-4">
-          <div className="font-bold lg:text-2xl text-base">03</div>
+          <div className="font-semibold lg:text-2xl text-base">03</div>
           <div className="flex flex-col gap-6">
             <div className="lg:text-6xl text-4xl font-bold tracking-wide lg:-mt-2">
               DURA+
             </div>
-            <div className="lg:w-3/4 w-full tracking-wide text-xs lg:text-base">
+            <div className="lg:w-3/4 w-full tracking-wide text-xs lg:text-base 2xl:text-xl font-medium">
               PARÉ DURA+ Systems redefine durability and functionality, ensuring
               a smooth and flexible experience. Elevate exteriors with Norma
               panels for long-lasting exterior facades, and enhance wall

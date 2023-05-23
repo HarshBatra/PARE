@@ -15,12 +15,14 @@ const Pastwork = () => {
 
   return (
     <div className="flex flex-col lg:mt-20 my-10 lg:mb-40">
-      <div className="flex gap-4 lg:gap-20 justify-around items-end lg:mx-20 mx-10 lg:mb-20 mb-10">
-        <div className="font-light lg:text-5xl text-lg leading-normal lg:w-1/2 3xl:w-1/3">
-          EXPLORE OUR PORTFOLIO AND DISCOVER SOME OF OUR{" "}
-          <span className="font-bold text-[#BE1E2D]">PAST WORK</span>
+      <div className="flex gap-4 lg:gap-20 justify-center items-end lg:mx-20 mx-10 lg:mb-20 mb-10">
+        <div className="font-normal lg:text-5xl text-lg flex flex-col gap-4 w-fit">
+          <div>EXPLORE OUR</div>
+          <div> PORTFOLIO AND</div>
+          <div> DISCOVER SOME OF OUR </div>
+          <span className="font-semibold text-[#BE1E2D]">PAST WORK</span>
         </div>
-        <div className="lg:text-2xl text-xs lg:w-1/2 3xl:w-1/3">
+        <div className="lg:text-xl text-xs font-medium 2xl:w-1/3 lg:w-1/2 xl:w-1/3">
           PARÉ has completed numerous innovative and world-class projects across
           India, showcasing our expertise in building materials and interior
           decor. Browse through our portfolio to see how we can help bring your

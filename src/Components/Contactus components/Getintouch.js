@@ -19,8 +19,8 @@ const Getintouch = () => {
           Corporate Office Address - 102, 103, Jai Commercial Complex, Cadbury
           Junction, Khopat, Thane West, Thane, Maharashtra 400601
         </div>
-        <div className="font-black -mr-4 text-9xl">GET IN</div>
-        <div className="font-black text-9xl">TOUCH</div>
+        <div className="font-semibold -mr-4 text-9xl">GET IN</div>
+        <div className="font-semibold text-9xl">TOUCH</div>
       </div>
     </div>
   );

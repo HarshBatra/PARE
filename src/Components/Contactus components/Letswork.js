@@ -4,7 +4,7 @@ const Letswork = () => {
   return (
     <div className="flex justify-between items-center py-20 pl-20">
       <div className="flex flex-col gap-4 w-2/5">
-        <div className="text-5xl text-[#BE1E2D] font-black tracking-wide">
+        <div className="text-5xl text-[#BE1E2D] font-semibold tracking-wide">
           LET'S WORK –––––––
         </div>
         <div className="text-5xl">on your project</div>

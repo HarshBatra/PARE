@@ -29,7 +29,9 @@ const Footer = () => {
         <div className="flex flex-col w-2/3">
           <div className="flex flex-col border-[0.01rem] border-opacity-50 border-white p-10 h-1/2">
             <ul>
-              <li className="font-bold tracking-wider text-2xl mb-4">LEGAL</li>
+              <li className="font-semibold tracking-wider text-2xl mb-4">
+                LEGAL
+              </li>
               <a href="/">
                 <li className="mb-2">COOKIE POLICY</li>
               </a>
@@ -40,7 +42,9 @@ const Footer = () => {
           </div>
           <div className="flex flex-col border-[0.01rem] border-opacity-50 border-white p-10 h-2/3 w-auto">
             <ul>
-              <li className="font-bold tracking-wider text-2xl mb-4">SOCIAL</li>
+              <li className="font-semibold tracking-wider text-2xl mb-4">
+                SOCIAL
+              </li>
               <a href="/">
                 <li className="mb-2">INSTAGRAM</li>
               </a>
@@ -55,7 +59,7 @@ const Footer = () => {
         </div>
         <div className="flex flex-col border-[0.01rem] border-opacity-50 border-white p-10 w-2/3">
           <ul>
-            <li className="font-bold tracking-wider text-2xl mb-4">MENU</li>
+            <li className="font-semibold tracking-wider text-2xl mb-4">MENU</li>
             <a href="/">
               <li className="mb-3">HOME</li>
             </a>

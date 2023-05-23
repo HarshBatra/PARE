@@ -4,7 +4,7 @@ import CountUp from "react-countup";
 const Aboutusintro = () => {
   return (
     <div className="flex flex-col text-justify w-full gap-8 p-40">
-      <div className="text-4xl font-black">ABOUT US</div>
+      <div className="text-4xl font-semibold">ABOUT US</div>
       <div className="text-xl">
         PARÉ, where innovation meets experience! We're India's leading
         manufacturer of Soffit panels and innovative surfaces, established in
@@ -18,32 +18,32 @@ const Aboutusintro = () => {
         alt=""
       />
       <div className="flex justify-between mx-4">
-        <div className="flex flex-col text-left text-xl font-medium gap-4 w-1/6">
-          <div className="text-6xl font-bold">
+        <div className="flex flex-col text-left text-xl font-semibold gap-4 w-1/6">
+          <div className="text-6xl font-semibold">
             <CountUp end={10} enableScrollSpy={true} />
             <span>+</span>
           </div>
           <div className="h-[0.1rem] w-full bg-black"></div>
           Quality Products
         </div>
-        <div className="flex flex-col text-left text-xl font-medium gap-4 w-1/6">
-          <div className="text-6xl font-bold">
+        <div className="flex flex-col text-left text-xl font-semibold gap-4 w-1/6">
+          <div className="text-6xl font-semibold">
             <CountUp end={500} enableScrollSpy={true} />
             <span>+</span>
           </div>
           <div className="h-[0.1rem] w-full bg-black"></div>
           Architectural Projects of Houses
         </div>
-        <div className="flex flex-col text-left text-xl font-medium gap-4 w-1/6">
-          <div className="text-6xl font-bold">
+        <div className="flex flex-col text-left text-xl font-semibold gap-4 w-1/6">
+          <div className="text-6xl font-semibold">
             <CountUp end={5000} enableScrollSpy={true} />
             <span>+</span>
           </div>
           <div className="h-[0.1rem] w-full bg-black"></div>
           Satisfied Clients
         </div>
-        <div className="flex flex-col text-left text-xl font-medium gap-4 w-1/6">
-          <div className="text-6xl font-bold">
+        <div className="flex flex-col text-left text-xl font-semibold gap-4 w-1/6">
+          <div className="text-6xl font-semibold">
             <CountUp end={2000} enableScrollSpy={true} />
             <span>+</span>
           </div>
@@ -53,7 +53,7 @@ const Aboutusintro = () => {
       </div>
       <div className="flex flex-col gap-6 my-20">
         <div className="flex text-justify justify-around">
-          <div className="text-3xl text-[#BE1E2D] font-black w-1/5">
+          <div className="text-3xl text-[#BE1E2D] font-semibold w-1/5">
             AGILITY
           </div>
           <div className="text-lg font-light w-1/2">
@@ -63,7 +63,7 @@ const Aboutusintro = () => {
           </div>
         </div>
         <div className="flex text-justify justify-around">
-          <div className="text-3xl text-[#BE1E2D] font-black w-1/5">
+          <div className="text-3xl text-[#BE1E2D] font-semibold w-1/5">
             QUALITY
           </div>
           <div className="text-lg font-light w-1/2">
@@ -74,7 +74,7 @@ const Aboutusintro = () => {
           </div>
         </div>
         <div className="flex text-justify justify-around">
-          <div className="text-3xl text-[#BE1E2D] font-black w-1/5">
+          <div className="text-3xl text-[#BE1E2D] font-semibold w-1/5">
             HUMAN CENTERED
           </div>
           <div className="text-lg font-light w-1/2">
@@ -83,7 +83,7 @@ const Aboutusintro = () => {
           </div>
         </div>
         <div className="flex text-justify justify-around">
-          <div className="text-3xl text-[#BE1E2D] font-black w-1/5">
+          <div className="text-3xl text-[#BE1E2D] font-semibold w-1/5">
             INTEGRITY
           </div>
           <div className="text-lg font-light w-1/2">
