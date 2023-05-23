@@ -14,13 +14,13 @@ const Pastwork = () => {
   ];
 
   return (
-    <div className="flex flex-col mt-20 mb-40">
-      <div className="flex gap-20 justify-between mx-20 mb-20">
-        <div className="font-light text-5xl leading-normal w-5/6">
+    <div className="flex flex-col lg:mt-20 my-10 lg:mb-40">
+      <div className="flex gap-4 lg:gap-20 justify-around items-end lg:mx-20 mx-10 lg:mb-20 mb-10">
+        <div className="font-light lg:text-5xl text-lg leading-normal lg:w-1/2 3xl:w-1/3">
           EXPLORE OUR PORTFOLIO AND DISCOVER SOME OF OUR{" "}
           <span className="font-bold text-[#BE1E2D]">PAST WORK</span>
         </div>
-        <div className="text-2xl w-5/6">
+        <div className="lg:text-2xl text-xs lg:w-1/2 3xl:w-1/3">
           PARÉ has completed numerous innovative and world-class projects across
           India, showcasing our expertise in building materials and interior
           decor. Browse through our portfolio to see how we can help bring your
@@ -30,14 +30,20 @@ const Pastwork = () => {
       <div className="flex flex-col">
         <Marquee direction="right" speed={50} gradient={false}>
           {works.map((work) => (
-            <div className="flex h-auto w-auto">
-              <img className="m-4 drop-shadow-lg" src={work.imgURL} alt="" />
-            </div>
+            <img
+              className="lg:m-4 drop-shadow-lg m-2 w-1/2 lg:w-auto"
+              src={work.imgURL}
+              alt=""
+            />
           ))}
         </Marquee>
         <Marquee direction="left" speed={50} gradient={false}>
           {works.map((work) => (
-            <img className="m-4 drop-shadow-lg" src={work.imgURL} alt="" />
+            <img
+              className="lg:m-4 drop-shadow-lg m-2 w-1/2 lg:w-auto"
+              src={work.imgURL}
+              alt=""
+            />
           ))}
         </Marquee>
       </div>

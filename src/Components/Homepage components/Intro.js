@@ -9,16 +9,16 @@ const Intro = () => {
         alt=""
       />
       <div className="absolute opacity-70 bg-gradient-to-r from-black to-black via-transparent w-screen h-screen top-0"></div>
-      <div className="flex flex-col self-center ml-40 gap-4">
+      <div className="flex flex-col self-center xl:ml-40 ml-8 gap-4">
         <img
-          className="z-50 w-2/3"
+          className="z-50 w-1/2 lg:w-2/3"
           src={require("../../Assets/innovwhitred 1.png")}
           alt=""
         />
-        <div className="flex font-sans font-bold text-6xl text-white drop-shadow-lg items-center align-middle tracking-wider h-auto">
+        <div className="flex font-sans lg:font-bold font-semibold text-2xl w-1/2 lg:w-full lg:text-6xl text-white drop-shadow-lg items-center align-middle tracking-wider h-auto">
           INNOVATIVE EXCELLENCE
         </div>
-        <div className="flex bg-[#BE1E2D] w-fit p-2 px-8 font-thin tracking-widest border-2 border-[#BE1E2D] hover:border-[#BE1E2D] hover:border-2 hover:bg-white hover:text-[#BE1E2D] mt-8 drop-shadow-md text-white cursor-pointer">
+        <div className="flex bg-[#BE1E2D] w-fit p-2 px-3 lg:px-8 font-thin tracking-widest border-2 border-[#BE1E2D] hover:border-[#BE1E2D] hover:border-2 hover:bg-white hover:text-[#BE1E2D] mt-8 drop-shadow-md text-white cursor-pointer text-xs lg:text-base">
           BUILD WITH US
         </div>
       </div>

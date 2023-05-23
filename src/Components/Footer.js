@@ -81,7 +81,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="mt-4 flex justify-center">
-        © Pare India Limited {new Date().getFullYear()} | Developed with ❤️ by
+        © Pare India Limited {new Date().getFullYear()} | Developed by
         PixySquare
       </div>
     </div>

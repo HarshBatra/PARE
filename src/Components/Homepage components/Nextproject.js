@@ -2,8 +2,8 @@ import React from "react";
 
 const Nextproject = () => {
   return (
-    <div className="flex bg-[#151515] p-20 px-60 gap-16 justify-around text-white align-middle items-center">
-      <div className="flex flex-col w-2/3 gap-4">
+    <div className="flex bg-[#151515] p-20 px-60 gap-16 justify-center text-white align-middle items-center">
+      <div className="flex flex-col xl:w-1/2 gap-4">
         <div className="text-6xl leading-[5rem] font-thin">
           IT'S TIME TO DISCUSS YOUR{" "}
           <span className="font-extrabold text-[#BE1E2D] tracking-wide">
@@ -18,19 +18,19 @@ const Nextproject = () => {
         <div className="mb-4 gap-4 flex flex-col">
           <input
             placeholder="NAME:"
-            className="bg-[#151515] font-thin opacity-80 p-4 border-b-2 border-white border-opacity-50 w-11/12"
+            className="bg-[#151515] font-thin opacity-80 p-4 border-b-2 border-white border-opacity-50 w-11/12 focus:outline-none"
           />
           <input
             placeholder="PHONE NUMBER:"
-            className="bg-[#151515] font-thin opacity-80 p-4 border-b-2 border-white border-opacity-50 w-11/12"
+            className="bg-[#151515] font-thin opacity-80 p-4 border-b-2 border-white border-opacity-50 w-11/12 focus:outline-none"
           />
           <input
             placeholder="EMAIL:"
-            className="bg-[#151515] font-thin opacity-80 p-4 border-b-2 border-white border-opacity-50 w-11/12"
+            className="bg-[#151515] font-thin opacity-80 p-4 border-b-2 border-white border-opacity-50 w-11/12 focus:outline-none"
           />
           <input
             placeholder="MESSAGE:"
-            className="bg-[#151515] font-thin opacity-80 p-4 border-b-2 border-white border-opacity-50 w-11/12"
+            className="bg-[#151515] font-thin opacity-80 p-4 border-b-2 border-white border-opacity-50 w-11/12 focus:outline-none"
           />
         </div>
         <div className="font-thin opacity-80 text-lg mb-4 tracking-wide">

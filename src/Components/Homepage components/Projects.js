@@ -29,11 +29,7 @@ const Projects = () => {
         <Slider {...settings}>
           {projects.map((project) => (
             <div className="flex m-4 drop-shadow-lg">
-              <img
-                className="hover:bg-black hover:overlay-opacity-30"
-                src={project.imgURL}
-                alt=""
-              />
+              <img className="" src={project.imgURL} alt="" />
             </div>
           ))}
         </Slider>
